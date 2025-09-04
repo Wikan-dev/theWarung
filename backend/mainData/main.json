@@ -1,0 +1,10 @@
+{
+    "menu": [
+        {"nama" : "Ayam Geprek", "harga" : 10000, "gambar" : "/assets/menu-1.png"},
+        {"nama" : "nasi goreng", "harga" : 10000, "gambar" : "/assets/nasiGoreng.jpg"}
+],
+    "kupon" : [
+        {"nama-kupon" : "spesial merdeka", "potongan" : 10000, "poster" : "/assets/poster.png"},
+        {"nama-kupon" : "spesial ulang tahun", "potongan" : 15000, "poster" : "/assets/poster.png"}
+    ]
+}
