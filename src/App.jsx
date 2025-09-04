@@ -10,7 +10,7 @@ import Nota from "./nota";
 const Container = ({ nama, harga, gambar }) => {
   return (
     <div className="bg-white outline-[1px] p-3 w-fit">
-      <img src={gambar} className="w-35 h-35 object-cover" />
+      <img src={process.env.PUBLIC_URL + gambar} alt={nama} className="w-35 h-35 object-cover" />
       <h1>{nama}</h1>
       <h1>{harga}</h1>
     </div>
